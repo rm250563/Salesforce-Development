@@ -10,7 +10,7 @@
 # Description...........: The test class is written to test the Bundeling Functionality developed By Pankaj Kashyap.
 ################################################################################################
 */
-@isTest
+@isTest(seeAllData =true)
 public class AccordianHeaderControllerTest {
    static testMethod void testAccordianHeaderController(){
         Favorite_Bundle__c bundle = new Favorite_Bundle__c(); 
@@ -90,7 +90,7 @@ public class AccordianHeaderControllerTest {
          pdBundleWrapList.Add(pdWrap);
          
          Test.startTest();
-        	TableContainerClass.GetUserFavBundle_Product();
+            TableContainerClass.GetUserFavBundle_Product();
             TableContainerClass.InsertBundle('Test Insert Bundle');
             try{
                 TableContainerClass.delbundle(JSON.serialize(dBundleWrapList),JSON.serialize(pdBundleWrapList));
@@ -140,7 +140,7 @@ public class AccordianHeaderControllerTest {
          pdBundleWrapList.Add(pdWrap);
          
          Test.startTest();
-        	
+            
             try{
                 TableContainerClass.AddBundle_Product_To_ItemToSchedule(JSON.serialize(dBundleWrapList),opp.Id, JSON.serialize(pdBundleWrapList));
             }catch(Exception ex){
