@@ -7,6 +7,14 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>CampaignMemberStatusValues__c.Sort_Order__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>CampaignMemberStatusValues__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
         <members>24 PRM Marketing User</members>
         <name>Profile</name>
     </types>
