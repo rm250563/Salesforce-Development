@@ -157,12 +157,9 @@ public class AccordianHeaderControllerTest {
         
     }
     
-    static void conflictCheck(){
-         pricebook2 pricebook = TestRecordsFactory.createPriceBook();
-         Opportunity opp = TestRecordsFactory.createSimpleOpportunity();
-         opp.Pricebook2Id = pricebook.Id;
-         update opp;
-         Product2 prod = TestRecordsFactory.createProduct();
+    static void conflictCheck123(){
+          
+            
          
          Favorite_Bundle__c bundle = new Favorite_Bundle__c(); 
          bundle.Name = 'Test bundle';
