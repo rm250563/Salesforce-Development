@@ -25,7 +25,10 @@
         <name>EmailTemplate</name>
     </types>
     <types>
+        <members>02 NSC Administrator</members>
+        <members>04 NSC UI Administrator</members>
         <members>24 PRM Marketing User</members>
+        <members>iPaas Administration</members>
         <name>Profile</name>
     </types>
 </Package>
