@@ -13,6 +13,7 @@
     </types>
     <types>
         <members>CampaignMemberStatusValues__c.Sort_Order__c</members>
+        <members>Favorite_Bundle__c.Checkbox_test__c</members>
         <name>CustomField</name>
     </types>
     <types>

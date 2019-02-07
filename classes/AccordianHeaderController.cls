@@ -9,6 +9,7 @@ public class AccordianHeaderController {
                if(BundleName != null){
                  FavBundleObj.Name=BundleName;
                  FavBundleObj.Id= BundleId;
+                 FavBundleObj.Checkbox_test__c = true;
                  Update   FavBundleObj;
                    
              }
