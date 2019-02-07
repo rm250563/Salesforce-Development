@@ -4,7 +4,12 @@
     <types>
         <members>AccordianHeaderController</members>
         <members>AccordianHeaderControllerTest</members>
+        <members>AccountController</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>PRM_Spare_Parts_RMA_Message</members>
+        <name>ApexPage</name>
     </types>
     <types>
         <members>CampaignMemberStatusValues__c.Sort_Order__c</members>
@@ -13,6 +18,11 @@
     <types>
         <members>CampaignMemberStatusValues__c</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Deal_Registration_Templates</members>
+        <members>Deal_Registration_Templates/Approve_Deal_Registration</members>
+        <name>EmailTemplate</name>
     </types>
     <types>
         <members>24 PRM Marketing User</members>
