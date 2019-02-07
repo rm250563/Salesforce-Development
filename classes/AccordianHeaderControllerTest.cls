@@ -10,7 +10,7 @@
 # Description...........: The test class is written to test the Bundeling Functionality developed By Pankaj Kashyap.
 ################################################################################################
 */
-@isTest(seeAllData =true)
+@isTest
 public class AccordianHeaderControllerTest {
    static testMethod void testAccordianHeaderController(){
         Favorite_Bundle__c bundle = new Favorite_Bundle__c(); 
@@ -154,6 +154,20 @@ public class AccordianHeaderControllerTest {
         
          
         
+        
+    }
+    
+    static void conflictCheck(){
+         pricebook2 pricebook = TestRecordsFactory.createPriceBook();
+         Opportunity opp = TestRecordsFactory.createSimpleOpportunity();
+         opp.Pricebook2Id = pricebook.Id;
+         update opp;
+         Product2 prod = TestRecordsFactory.createProduct();
+         
+         Favorite_Bundle__c bundle = new Favorite_Bundle__c(); 
+         bundle.Name = 'Test bundle';
+         bundle.ownerid = UserInfo.getUserId();
+         insert bundle;
     }
     
     
