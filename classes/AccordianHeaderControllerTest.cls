@@ -154,20 +154,6 @@ public class AccordianHeaderControllerTest {
         
          
         
-        
-    }
-    
-    static void conflictCheck123(){
-          
-          Favorite_Bundle__c bundle1 = new Favorite_Bundle__c(); 
-         bundle1.Name = 'Test bundle';
-         bundle1.ownerid = UserInfo.getUserId();
-         insert bundle1; 
-         
-         Favorite_Bundle__c bundle = new Favorite_Bundle__c(); 
-         bundle.Name = 'Test bundle';
-         bundle.ownerid = UserInfo.getUserId();
-         insert bundle;
     }
     
     
