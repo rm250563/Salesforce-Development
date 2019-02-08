@@ -26,7 +26,7 @@ public class AccordianHeaderControllerTest {
        }
         
     }
-    
+   
     static testMethod void testAddProductToBundleMethod(){
          Product2 prod = TestRecordsFactory.createProduct();
          
@@ -108,7 +108,12 @@ public class AccordianHeaderControllerTest {
          
         
     }
+     static testmethod void method1(){
     
+    }
+     static testmethod void method2(){
+    
+    }
     static testMethod void testAddBundle_Product_To_ItemToSchedule(){
          
          pricebook2 pricebook = TestRecordsFactory.createPriceBook();
